@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\models">
+      <UniqueIdentifier>{310093E0-B7F0-4C8B-9C50-3599B2500710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\services">
+      <UniqueIdentifier>{6C7D0801-F955-4F48-A58B-2C7AF14096C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\tests">
+      <UniqueIdentifier>{A02657C4-C220-406D-9C8C-14AB3D8765D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="headers\abstractions">
+      <UniqueIdentifier>{064EB5DA-390D-41FD-8664-6DCA6272F5DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\models">
+      <UniqueIdentifier>{EA0A5E46-16D4-4026-82BF-083C5F9D4771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\services">
+      <UniqueIdentifier>{E3C16B2A-D18D-4956-9C7F-FE43F897EB1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\tests">
+      <UniqueIdentifier>{3953CCF7-2375-4906-9E39-A9E2E965C215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\models\Order.cpp">
+      <Filter>source\models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\models\Person.cpp">
+      <Filter>source\models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\models\Tariff.cpp">
+      <Filter>source\models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\models\Vehicle.cpp">
+      <Filter>source\models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\services\ConsoleMenu.cpp">
+      <Filter>source\services</Filter>
+    </ClCompile>
+    <ClCompile Include="source\services\FileDataStorage.cpp">
+      <Filter>source\services</Filter>
+    </ClCompile>
+    <ClCompile Include="source\services\TaxiService.cpp">
+      <Filter>source\services</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tests\SelfTests.cpp">
+      <Filter>source\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\abstractions\Interfaces.h">
+      <Filter>headers\abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\models\Order.h">
+      <Filter>headers\models</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\models\Person.h">
+      <Filter>headers\models</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\models\Tariff.h">
+      <Filter>headers\models</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\models\Vehicle.h">
+      <Filter>headers\models</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\services\ConsoleMenu.h">
+      <Filter>headers\services</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\services\FileDataStorage.h">
+      <Filter>headers\services</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\services\TaxiService.h">
+      <Filter>headers\services</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\tests\SelfTests.h">
+      <Filter>headers\tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
