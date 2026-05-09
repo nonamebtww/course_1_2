@@ -140,6 +140,7 @@
     <ClCompile Include="source\models\Person.cpp" />
     <ClCompile Include="source\models\Tariff.cpp" />
     <ClCompile Include="source\models\Vehicle.cpp" />
+    <ClCompile Include="source\services\ConsoleInput.cpp" />
     <ClCompile Include="source\services\ConsoleMenu.cpp" />
     <ClCompile Include="source\services\FileDataStorage.cpp" />
     <ClCompile Include="source\services\TaxiService.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="headers\models\Person.h" />
     <ClInclude Include="headers\models\Tariff.h" />
     <ClInclude Include="headers\models\Vehicle.h" />
+    <ClInclude Include="headers\services\ConsoleInput.h" />
     <ClInclude Include="headers\services\ConsoleMenu.h" />
     <ClInclude Include="headers\services\FileDataStorage.h" />
     <ClInclude Include="headers\services\TaxiService.h" />

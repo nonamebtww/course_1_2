@@ -51,6 +51,9 @@
     <ClCompile Include="source\models\Vehicle.cpp">
       <Filter>source\models</Filter>
     </ClCompile>
+    <ClCompile Include="source\services\ConsoleInput.cpp">
+      <Filter>source\services</Filter>
+    </ClCompile>
     <ClCompile Include="source\services\ConsoleMenu.cpp">
       <Filter>source\services</Filter>
     </ClCompile>
@@ -85,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="headers\models\Vehicle.h">
       <Filter>headers\models</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\services\ConsoleInput.h">
+      <Filter>headers\services</Filter>
     </ClInclude>
     <ClInclude Include="headers\services\ConsoleMenu.h">
       <Filter>headers\services</Filter>

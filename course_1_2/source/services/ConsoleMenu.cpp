@@ -1,5 +1,7 @@
 #include "services/ConsoleMenu.h"
 
+#include "services/ConsoleInput.h"
+
 #include <iomanip>
 #include <iostream>
 #include <sstream>
@@ -429,8 +431,8 @@ std::string ConsoleMenu::readLine(const std::string& prompt, bool allowEmpty) co
     while (true)
     {
         std::cout << ui::Prompt << "> " << ui::Reset << prompt;
-        std::string value;
-        std::getline(std::cin, value);
+        std::cout.flush();
+        const std::string value = consoleInput::readUtf8Line(std::cin);
 
         if (allowEmpty || !value.empty())
         {
