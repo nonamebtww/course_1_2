@@ -1,6 +1,7 @@
 #pragma once
 
-#include "abstractions/Interfaces.h"
+#include "abstractions/IEntity.h"
+#include "abstractions/IPrintable.h"
 
 #include <ostream>
 #include <string>

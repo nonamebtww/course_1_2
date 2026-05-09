@@ -146,7 +146,9 @@
     <ClCompile Include="source\tests\SelfTests.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\abstractions\Interfaces.h" />
+    <ClInclude Include="headers\abstractions\IDataStorage.h" />
+    <ClInclude Include="headers\abstractions\IEntity.h" />
+    <ClInclude Include="headers\abstractions\IPrintable.h" />
     <ClInclude Include="headers\models\Order.h" />
     <ClInclude Include="headers\models\Person.h" />
     <ClInclude Include="headers\models\Tariff.h" />

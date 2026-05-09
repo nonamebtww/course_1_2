@@ -65,7 +65,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\abstractions\Interfaces.h">
+    <ClInclude Include="headers\abstractions\IDataStorage.h">
+      <Filter>headers\abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\abstractions\IEntity.h">
+      <Filter>headers\abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\abstractions\IPrintable.h">
       <Filter>headers\abstractions</Filter>
     </ClInclude>
     <ClInclude Include="headers\models\Order.h">

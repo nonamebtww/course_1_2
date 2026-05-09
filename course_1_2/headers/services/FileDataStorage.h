@@ -1,6 +1,6 @@
 #pragma once
 
-#include "abstractions/Interfaces.h"
+#include "abstractions/IDataStorage.h"
 
 #include <filesystem>
 #include <string>
